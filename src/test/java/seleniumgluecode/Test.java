@@ -14,7 +14,7 @@ public class Test {
     
     @Given("^user is on homepage$")
     public void user_is_on_homepage() throws Throwable {     
-    	System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\Va185060\\\\Desktop\\\\sag\\\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\XXXXXX\\\\Desktop\\\\sag\\\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://automationpractice.com/index.php");
